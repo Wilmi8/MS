@@ -11,4 +11,8 @@ public class HelloWildFlyController {
     public String sayHello(){
         return ("Malschauen, was das tool so kann");
     }
+    @RequestMapping("jost")
+    public String sayHello(){
+        return ("hallo jost, das geht nun beides");
+    }
 }
