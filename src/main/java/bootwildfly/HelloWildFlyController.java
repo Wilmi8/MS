@@ -9,6 +9,6 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("hallo papa, cool das es funktioniert");
+        return ("Malschauen, was das tool so kann");
     }
 }
