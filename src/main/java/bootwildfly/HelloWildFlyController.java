@@ -15,4 +15,12 @@ public class HelloWildFlyController {
     public String sayJost(){
         return ("hallo jost, das geht nun beides");
     }
+    
+    @RequestMapping("/hallo/{name}")
+    String hallo(@PathVariable String name) {
+         
+             return "Hi "+name+" !";
+              
+    }
+    
 }
