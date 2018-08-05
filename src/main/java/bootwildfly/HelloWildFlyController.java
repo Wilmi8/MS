@@ -9,7 +9,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Malschauen, was das tool so kann");
+        return ("Und ich habe wieder was geändert");
     }
     @RequestMapping("jost")
     public String sayJost(){
